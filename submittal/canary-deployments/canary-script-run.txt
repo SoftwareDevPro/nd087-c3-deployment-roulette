@@ -1,0 +1,31 @@
+root@MSI:/mnt/d/School/Udacity/_Nanodegrees/SiteReliabilityEngineer/_P3_DeploymentRoulette/nd087-c3-deployment-roulette/starter/apps/canary# ./canary.sh
+deployment.apps/canary-v2 created
+V1 PODS: 3
+V2 PODS: 1
+deployment.apps/canary-v2 scaled
+deployment.apps/canary-v1 scaled
+Waiting for deployment "canary-v2" rollout to finish: 1 of 2 updated replicas are available...
+deployment "canary-v2" successfully rolled out
+Canary deployment of 1 replicas successful!
+Continue deployment? (y/n) y
+continuing deployment
+V1 PODS: 2
+V2 PODS: 2
+deployment.apps/canary-v2 scaled
+deployment.apps/canary-v1 scaled
+Waiting for deployment "canary-v2" rollout to finish: 2 of 3 updated replicas are available...
+deployment "canary-v2" successfully rolled out
+Canary deployment of 1 replicas successful!
+Continue deployment? (y/n) y
+continuing deployment
+V1 PODS: 1
+V2 PODS: 3
+deployment.apps/canary-v2 scaled
+deployment.apps/canary-v1 scaled
+Waiting for deployment "canary-v2" rollout to finish: 3 of 4 updated replicas are available...
+deployment "canary-v2" successfully rolled out
+Canary deployment of 1 replicas successful!
+Continue deployment? (y/n) y
+continuing deployment
+Canary deployment of v2 successful
+root@MSI:/mnt/d/School/Udacity/_Nanodegrees/SiteReliabilityEngineer/_P3_DeploymentRoulette/nd087-c3-deployment-roulette/starter/apps/canary#

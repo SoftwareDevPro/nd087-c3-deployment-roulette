@@ -1,0 +1,17 @@
+root@MSI:/mnt/d/School/Udacity/_Nanodegrees/SiteReliabilityEngineer/_P3_DeploymentRoulette/nd087-c3-deployment-roulette# kubectl get pods --all-namespaces
+NAMESPACE     NAME                           READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-d4xn4                 1/1     Running   0          104m
+kube-system   aws-node-gt7xx                 1/1     Running   0          104m
+kube-system   coredns-f47955f89-2nsgs        1/1     Running   0          108m
+kube-system   coredns-f47955f89-wvbth        1/1     Running   0          108m
+kube-system   kube-proxy-c7p58               1/1     Running   0          104m
+kube-system   kube-proxy-cq2wn               1/1     Running   0          104m
+udacity       blue-8475cbdf46-2pzvz          1/1     Running   0          100m
+udacity       blue-8475cbdf46-cnwxd          1/1     Running   0          100m
+udacity       blue-8475cbdf46-kbpk5          1/1     Running   0          100m
+udacity       canary-v2-5dc9c56687-gmjfk     1/1     Running   0          7m4s
+udacity       canary-v2-5dc9c56687-mnmwx     1/1     Running   0          6m50s
+udacity       canary-v2-5dc9c56687-nfrk9     1/1     Running   0          115s
+udacity       canary-v2-5dc9c56687-plr4r     1/1     Running   0          25s
+udacity       hello-world-794458d64d-zvsp7   1/1     Running   0          93m
+root@MSI:/mnt/d/School/Udacity/_Nanodegrees/SiteReliabilityEngineer/_P3_DeploymentRoulette/nd087-c3-deployment-roulette# 
