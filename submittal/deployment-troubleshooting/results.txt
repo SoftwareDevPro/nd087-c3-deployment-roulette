@@ -1,0 +1,2 @@
+First investigation of the issue was done via 'kubectl get pods', it displayed CrashLoopBackOff for the hello-world pod.  Retrieving the logs for the hello-world pod showed that it was attempting to request from /nginx_status, and that the correct ping location was /healthz.  Updating hello.yml, changing the path on the livenessProbe from /nginx_status to /healthz, reapplying the deployment (kubectl apply -f hello.yml), resulted in healthy hello-world pod, and the expected 'Healthy!' output in the kubectl logs for the hello-world pod.
+
